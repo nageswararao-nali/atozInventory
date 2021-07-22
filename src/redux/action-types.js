@@ -1,0 +1,39 @@
+export const SUCCESS = 'SUCCESS';
+export const FAIL = 'FAIL';
+
+export const AUTH_LOGIN = 'AUTH_LOGIN';
+export const AUTH_SEND_OTP = 'AUTH_SEND_OTP';
+export const AUTH_VERIFY_OTP = 'AUTH_VERIFY_OTP';
+export const AUTH_REFRESH_TOKEN = 'AUTH_REFRESH_TOKEN';
+export const AUTH_SET_PASSWORD = 'AUTH_SET_PASSWORD';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+export const GET_LOOKUP = 'GET_LOOKUP';
+
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+export const GET_SUB_CATEGORIES = 'GET_SUB_CATEGORIES';
+export const GET_ITEMS = 'GET_ITEMS';
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const GET_ROUTES = 'GET_ROUTES';
+export const GET_ROUTE_DETAILS = 'GET_ROUTE_DETAILS';
+export const GET_ROUTE_SUMMARY = 'GET_ROUTE_SUMMARY';
+export const GET_ROUTE = 'GET_ROUTE';
+export const START_ROUTE = 'START_ROUTE';
+export const END_ROUTE = 'END_ROUTE';
+export const GET_ORDER = 'GET_ORDER';
+export const CLOSE_ORDER = 'CLOSE_ORDER';
+export const UPLOAD_IMAGE = 'UPLOAD_IMAGE';
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+export const UPDATE_PRODUCT = 'UPDATE_PRODUCT';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const CLEAR_PRODUCT = 'CLEAR_PRODUCT';
+export const ADD_ITEM = 'ADD_ITEM';
+export const UPDATE_ITEM = 'UPDATE_ITEM';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const ADD_CATEGORY = 'ADD_CATEGORY';
+export const UPDATE_CATEGORY = 'UPDATE_CATEGORY';
+export const DELETE_SUB_CATEGORY = 'DELETE_SUB_CATEGORY';
+export const UPDATE_SUB_CATEGORY = 'UPDATE_SUB_CATEGORY';
+export const GET_ORDERS = 'GET_ORDERS';
+export const PROCESS_ORDER = 'PROCESS_ORDER';
+export const GET_USERS = 'GET_USERS';
